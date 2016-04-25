@@ -1,17 +1,11 @@
 # jenkins-java-docker-slave
 
 ## Environment variables
-#### Preset
-
-```
-DOCKER_TLS_VERIFY=true
-DOCKER_CERT_PATH=/etc/docker/certs
-```
-
-#### Manual
 
 ```
 DOCKER_HOST=<ip>:<port>
+DOCKER_TLS_VERIFY=true
+DOCKER_CERT_PATH=/etc/docker/certs
 ```
 
 ## Tip
